@@ -34,8 +34,8 @@ const Sidebar = () => {
       }, */
       {
         icon: Plus,
-        label: 'Create',
-        href: '/universe/create',
+        label: 'Contact',
+        href: '/',
         pro: true,
       },/*
       {
@@ -52,8 +52,8 @@ const Sidebar = () => {
       },*/
       {
         icon: Settings,
-        label: 'Settings',
-        href: '/settings',
+        label: 'Help',
+        href: '/',
         pro: false,
       },
     ];
