@@ -34,14 +34,14 @@ const Header = () => {
           </div>
           <div className="flex flex-row mx-2">
             {/* logo */}
-            <Link href="/" className="flex mx-2">
-                      <h1 className={cn("hidden md:block text-xl md:text-md font-light text-primary hover:text-slate-700", font.className)}>
+            <Link href="/about" className="flex mx-2">
+                      <h1 className={cn("hidden md:block text-md md:text-md font-light text-primary hover:text-slate-700", font.className)}>
                         About
                       </h1>
             </Link>
             {/* logo */}
-            <Link href="/" className="flex mx-2">
-                      <h1 className={cn("hidden md:block text-xl md:text-md font-light text-primary hover:text-slate-700", font.className)}>
+            <Link href="/contact" className="flex mx-2">
+                      <h1 className={cn("hidden md:block text-md md:text-md font-light text-primary hover:text-slate-700", font.className)}>
                         Contact
                       </h1>
             </Link>
